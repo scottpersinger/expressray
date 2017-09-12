@@ -1,0 +1,21 @@
+{
+  "name": "expressray",
+  "version": "1.0.0",
+  "description": "Simple distributed tracing for your Express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "shimmer": "^1.1.0",
+    "cls-hooked": "^4.2.2",
+    "jaeger-client": "^3.5.3",
+    "opentracing": "^0.14.1"
+  },
+  "devDependencies": {
+    "express": "^4.15.4",
+    "request": "^2.81.0"
+  }
+}
